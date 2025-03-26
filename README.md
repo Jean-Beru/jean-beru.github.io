@@ -1,3 +1,5 @@
+![Publish](https://github.com/Jean-Beru/jean-beru.github.io/actions/workflows/publish.yml/badge.svg)
+
 # jean-beru.github.io
 
 ## Talks
