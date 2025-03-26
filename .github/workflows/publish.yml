@@ -4,6 +4,7 @@ on:
   push:
     branches: ['main']
   workflow_dispatch:
+    types: ['publish']
 
 permissions:
   contents: 'read'
@@ -20,7 +21,7 @@ jobs:
     runs-on: 'ubuntu-latest'
     strategy:
       matrix:
-        talk: ['gotenberg', 'symfony-online-fireside-chat']
+        talk: ['2024_12_sfcon_gotenberg', '2025_01_sfonline_fireside_chat', '2025_03_sflive_gotenberg']
       fail-fast: false
     steps:
       - name: 'Checkout'
