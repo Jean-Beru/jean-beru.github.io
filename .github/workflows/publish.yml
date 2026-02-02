@@ -21,7 +21,12 @@ jobs:
     runs-on: 'ubuntu-latest'
     strategy:
       matrix:
-        talk: ['2024_12_sfcon_gotenberg', '2025_01_sfonline_fireside_chat', '2025_03_sflive_gotenberg', '2025_09_apiplatformcon_fun_with_flags']
+        talk:
+          - '2024_12_sfcon_gotenberg'
+          - '2025_01_sfonline_fireside_chat'
+          - '2025_03_sflive_gotenberg'
+          - '2025_09_apiplatformcon_fun_with_flags'
+          - '2026_02_webdays_fun_with_flags'
       fail-fast: false
     steps:
       - name: 'Checkout'

@@ -26,6 +26,12 @@
 
 📝 [Slides](https://jean-beru.github.io/2025_09_apiplatformcon_fun_with_flags/)
 
+### Jean-Beru presents: Fun with flags (with demo)
+
+☀️ [WebDays 2026 - Aix-en-Provence](https://webdays.events/convention/edition-2026/programme/)
+
+📝 [Slides](https://jean-beru.github.io/2026_02_webdays_fun_with_flags/)
+
 <div align="center">
 
 ![Publish](https://github.com/Jean-Beru/jean-beru.github.io/actions/workflows/publish.yml/badge.svg)
