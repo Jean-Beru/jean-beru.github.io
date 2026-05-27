@@ -27,6 +27,7 @@ jobs:
           - '2025_03_sflive_gotenberg'
           - '2025_09_apiplatformcon_fun_with_flags'
           - '2026_02_webdays_fun_with_flags'
+          - '2026_06_symfony_online_audit_logs'
       fail-fast: false
     steps:
       - name: 'Checkout'

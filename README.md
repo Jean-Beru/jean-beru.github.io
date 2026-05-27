@@ -1,4 +1,4 @@
-# <img src="./assets/header.png" alt="SensioLabs Gotenberg Bundle for Symfony" width="56px" align="left" style="margin: -8px 16px" /> Jean-Beru
+# <img src="./assets/header.png" alt="avatar" width="56px" align="left" style="margin: -8px 16px" /> Jean-Beru
 
 ## Talks
 
@@ -31,6 +31,12 @@
 ☀️ [WebDays 2026 - Aix-en-Provence](https://webdays.events/convention/edition-2026/programme/)
 
 📝 [Slides](https://jean-beru.github.io/2026_02_webdays_fun_with_flags/)
+
+### Dealing with audit logs
+
+💻 [SymfonyOnline June 2026](https://live.symfony.com/2026-online-june/)
+
+📝 [Slides](https://jean-beru.github.io/2026_06_symfony_online_audit_logs/)
 
 <div align="center">
 
