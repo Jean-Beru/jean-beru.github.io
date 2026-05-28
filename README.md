@@ -34,7 +34,7 @@
 
 ### Dealing with audit logs
 
-💻 [SymfonyOnline June 2026](https://live.symfony.com/2026-online-june/)
+💻 [SymfonyOnline June 2026](https://live.symfony.com/2026-online-june/schedule#dealing-with-audit-logs)
 
 📝 [Slides](https://jean-beru.github.io/2026_06_symfony_online_audit_logs/)
 
