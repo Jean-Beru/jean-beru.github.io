@@ -3,8 +3,9 @@ name: 'Deploy to Pages'
 on:
   push:
     branches: ['main']
-  workflow_dispatch:
+  repository_dispatch:
     types: ['publish']
+  workflow_dispatch:
 
 permissions:
   contents: 'read'
