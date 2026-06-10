@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jean-Beru</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #0f172a; --fg: #e2e8f0; --muted: #94a3b8; --card: #1e293b; --accent: #38bdf8; --border: #334155; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif; background: var(--bg); color: var(--fg); line-height: 1.5; }
+    .wrap { max-width: 880px; margin: 0 auto; padding: 3rem 1.25rem 4rem; }
+    header { display: flex; align-items: center; gap: 1.25rem; margin-bottom: 2.5rem; }
+    header img { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; }
+    header h1 { margin: 0; font-size: 2rem; }
+    header p { margin: .25rem 0 0; color: var(--muted); }
+    header a { color: var(--accent); text-decoration: none; }
+    h2 { margin: 2.5rem 0 1rem; font-size: 1.35rem; }
+    ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .75rem; }
+    .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+    .card-img-link { display: block; }
+    .card-img { display: block; width: 100%; height: 160px; object-fit: cover; }
+    .card-body { padding: 1rem 1.25rem; }
+    .card-title { display: block; font-weight: 600; color: var(--fg); text-decoration: none; font-size: 1.05rem; }
+    .card-title:hover { color: var(--accent); }
+    .card-desc { margin: .4rem 0 0; color: var(--muted); font-size: .92rem; }
+    .card-event { display: inline-block; margin-top: .4rem; color: var(--muted); text-decoration: none; font-size: .85rem; }
+    .card-event:hover { color: var(--accent); }
+    footer { margin-top: 3rem; text-align: center; color: var(--muted); font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="./assets/header.png" alt="Jean-Beru" />
+      <div>
+        <h1>Jean-Beru</h1>
+        <p>Head of Opensource @ SensioLabs</p>
+        <p><a href="https://github.com/Jean-Beru" target="_blank" rel="noopener">github.com/Jean-Beru</a></p>
+      </div>
+    </header>
+
+    <h2>Talks</h2>
+    <ul>{{TALKS}}
+    </ul>
+
+    <h2>Open source</h2>
+    <ul>
+      <li class="card">
+        <div class="card-body">
+          <a class="card-title" href="https://github.com/symfony/symfony" target="_blank" rel="noopener">symfony/symfony</a>
+          <p class="card-desc">The Symfony PHP framework.</p>
+        </div>
+      </li>
+      <li class="card">
+        <div class="card-body">
+          <a class="card-title" href="https://github.com/sensiolabs/GotenbergBundle" target="_blank" rel="noopener">sensiolabs/GotenbergBundle</a>
+          <p class="card-desc">Symfony bundle integrating the Gotenberg API to generate PDFs and screenshots.</p>
+        </div>
+      </li>
+    </ul>
+
+    <footer>Built with Slidev &middot; deployed on GitHub Pages</footer>
+  </div>
+</body>
+</html>
